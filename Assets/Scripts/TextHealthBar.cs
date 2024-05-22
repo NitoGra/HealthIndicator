@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-public class TextHealthBar : HealthIndicator
+public class TextHealthBar : BaseHealth
 {
 	[SerializeField] private TextMeshProUGUI _healthBar;
 

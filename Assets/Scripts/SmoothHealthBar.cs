@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SmoothHealthBar : HealthIndicator
+public class SmoothHealthBar : BaseHealth
 {
 	[SerializeField] private Slider _healthBar;
 	[SerializeField] private float _step;

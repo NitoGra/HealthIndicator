@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class HealthIndicator : MonoBehaviour
+public class BaseHealth : MonoBehaviour
 {
 	[SerializeField] protected Health Health;
 
